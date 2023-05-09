@@ -1,6 +1,7 @@
 .navbar {
     text-align: center !important;
     border: black solid 5px;
+    width: 100%;
 }
 .footer {
     background-color: rgb(33, 33, 33);
@@ -9,7 +10,7 @@
     color: white;
     padding-bottom: 0rem;
     bottom: 0;
-    width: 100%;
+    
     border: black solid 5px;   
 }
 .icons { 

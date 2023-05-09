@@ -1,7 +1,7 @@
 .navbar {
     text-align: center !important;
     border: black solid 5px;
-    width: 100% !important;
+    width: 100vw!important;
 }
 .footer {
     background-color: rgb(33, 33, 33);
@@ -11,8 +11,9 @@
     color: white;
     padding-bottom: 0rem;
     bottom: 0;
-    width: 100%;
-    border: black solid 5px;   
+    width: 100vw;
+    border: black solid 5px; 
+
 }
 
 .icons { 
@@ -24,6 +25,8 @@ body {
     background-color: rgb(93, 91, 91)!important;
     color: whitesmoke !important;
     text-align: center !important; 
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 .form-control {
@@ -31,7 +34,7 @@ body {
 }
 
 .form-group { 
-    width: 50%;
+    width: 48%;
 }
 
 .submit {
