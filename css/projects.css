@@ -1,0 +1,27 @@
+.navbar {
+    text-align: center !important;
+    border: black solid 5px;
+}
+.footer {
+    background-color: rgb(33, 33, 33);
+    text-align: center;
+    position: fixed;
+    min-height: 0% !important;
+    color: white;
+    padding-bottom: 0rem;
+    bottom: 0;
+    width: 100%;
+    border: black solid 5px;   
+}
+.icons { 
+    height: 60px;
+    width: 60px;
+}
+
+body {
+    background-color: rgb(93, 91, 91) !important;
+    color: whitesmoke !important;
+}
+.text {
+    border: black solid 1rem;
+}
