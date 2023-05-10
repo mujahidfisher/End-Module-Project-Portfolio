@@ -9,7 +9,6 @@ body {
 .footer {
     background-color: rgb(33, 33, 33);
     text-align: center;
-    position:fixed;
     min-height: 0% !important;
     color: white;
     padding-bottom: 0rem;
@@ -37,5 +36,10 @@ h1 {
 }
 h3 {
     text-align: center;
+}
+.btn1 {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    border-radius: 2rem;
 }
 
