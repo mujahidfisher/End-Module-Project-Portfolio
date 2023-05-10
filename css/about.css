@@ -1,0 +1,46 @@
+.navbar {
+    text-align: center !important;
+    border: black solid 5px;
+}
+body {
+    background-color: rgb(93, 91, 91)!important;
+    overflow-x: hidden;
+}
+.footer {
+    background-color: rgb(33, 33, 33);
+    text-align: center ;
+    color: white;
+    width: 100%;
+    border: black solid 5px;
+    
+}
+.icons { 
+    height: 60px;
+    width: 60px;
+}
+ 
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #bababa;
+    color: rgb(32, 32, 32);
+    border: black solid 5px;
+}
+  
+.container {
+    padding: 0 16px;
+}
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h2 {
+    text-align: center;
+}
+
+.list {
+    border: black solid 5px;
+    padding: 10px;
+}

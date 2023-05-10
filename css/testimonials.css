@@ -9,10 +9,7 @@ body {
 .footer {
     background-color: rgb(33, 33, 33);
     text-align: center ;
-    min-height: 0% !important;
     color: white;
-    padding-bottom: 0rem;
-    bottom: 0;
     width: 100%;
     border: black solid 5px;
     
