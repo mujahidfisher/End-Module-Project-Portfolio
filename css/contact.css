@@ -31,6 +31,7 @@ body {
 
 .form-control {
     background-color: rgb(29, 28, 28) !important;
+    color: whitesmoke !important;
 }
 
 .form-group { 
@@ -44,7 +45,7 @@ body {
     border: black solid ;
     border-radius: 20%;
     cursor: pointer;
-    margin: 5%;
+    margin: 2%;
 
 }
 

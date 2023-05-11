@@ -5,6 +5,7 @@
 body {
     background-color: rgb(93, 91, 91)!important;
     overflow-x: hidden;
+    
 }
 .footer {
     background-color: rgb(33, 33, 33);
@@ -25,16 +26,19 @@ body {
     background-color: #bababa;
     color: rgb(32, 32, 32);
     border: black solid 5px;
+    margin: 20px !important
 }
   
 .container {
     padding: 0 16px;
+    margin: 20px !important
 }
   
 .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
+    margin: 20px !important
 }
 h2 {
     text-align: center;
@@ -45,3 +49,14 @@ h2 {
     padding: 10px;
 }
 
+.card {
+    margin: 20px !important
+}
+@media screen and (max-width: 820px){
+    .card-deck {
+        display: grid !important;
+    }
+}
+.card-img-top {
+    width: 100% !important;
+}

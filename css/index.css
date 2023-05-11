@@ -12,10 +12,9 @@ body {
     min-height: 0% !important;
     color: white;
     padding-bottom: 0rem;
-    bottom: 0%;
     width: 100%;
     border: black solid 5px;
-    
+    margin-top: 10%;
 }
  .icons { 
     height: 60px;
@@ -41,5 +40,12 @@ h3 {
     background-color: rgb(63, 63, 63);
     color: white;
     border-radius: 2rem;
+}
+@media screen and (min-width: 390px){
+    .footer{
+        position: fixed;
+        bottom: 0%;
+
+    }
 }
 
