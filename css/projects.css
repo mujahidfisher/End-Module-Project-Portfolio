@@ -30,3 +30,12 @@ body {
 
 }
 
+@media screen and (max-width: 500pxmax){
+    .footer{
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+
+    }
+}
+
