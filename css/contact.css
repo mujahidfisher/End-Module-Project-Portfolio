@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+div {
+    font-family: 'Roboto Mono', monospace;
+  }
+  
 .navbar {
     text-align: center !important;
     border: black solid 5px;
@@ -28,6 +34,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
 }
+
 
 .form-control {
     background-color: rgb(29, 28, 28) !important;
