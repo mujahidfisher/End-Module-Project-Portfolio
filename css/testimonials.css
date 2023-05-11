@@ -21,6 +21,7 @@ body {
 
 .cards {
     padding: 1rem;
+    width: 100%;
 
 }
 .card-img-top {

@@ -37,6 +37,10 @@ body {
 .form-group { 
     width: 48%;
 }
+.form{
+    width: 25rem;
+    display: flex;
+}
 
 .submit {
     width: 80px;
