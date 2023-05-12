@@ -32,7 +32,6 @@ body {
     background-color: rgb(93, 91, 91)!important;
     color: whitesmoke !important;
     text-align: center !important; 
-    width: 100vw;
     overflow-x: hidden;
 }
 
@@ -46,7 +45,7 @@ body {
     width: 48%;
 }
 .form{
-    width: 25rem;
+    width: 280px;
     display: flex;
     justify-content: center;
 }
