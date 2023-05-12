@@ -48,6 +48,7 @@ body {
 .form{
     width: 25rem;
     display: flex;
+    justify-content: center;
 }
 /* btn & btn animation */
 .submit {
