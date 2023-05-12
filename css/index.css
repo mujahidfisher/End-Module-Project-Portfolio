@@ -1,6 +1,7 @@
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-
+/* main build of website */
 .navbar {
     text-align: center !important;
     border: black solid 5px !important;
@@ -27,6 +28,7 @@ div {
     height: 60px;
     width: 60px;
 }
+/* profilcard */
 .profile {
     height: 200px;
     width: 200px;
@@ -38,6 +40,7 @@ div {
     border: black solid 5px;
     animation: pulse-black 2s infinite;
 }
+/* btn animation for contact */
 @keyframes pulse-black {
     0% {
       transform: scale(0.95);
@@ -54,7 +57,7 @@ div {
       box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
     }
   }
-
+/* img animation */
 h1 {
     text-align: center;
 }
@@ -83,6 +86,7 @@ h3 {
       box-shadow: 0 0 0 0 rgba(142, 68, 173, 0);
     }
   }
+  /* fixed screansize */
 @media screen and (min-width: 300px){
     .footer{
         position: fixed;

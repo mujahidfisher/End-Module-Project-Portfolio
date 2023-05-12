@@ -1,5 +1,7 @@
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+/* main body build */
 div {
     font-family: 'Roboto Mono', monospace;
   }
@@ -28,6 +30,7 @@ body {
     background-color: rgb(93, 91, 91) !important;
     color: whitesmoke !important;
 }
+/* text color and position */
 .text {
     border: black solid 5px;
     background-color: rgb(33, 33, 33);
@@ -35,7 +38,7 @@ body {
     text-align: center;
 
 }
-
+/* fix media screan size */
 @media screen and (max-width: 500pxmax){
     .footer{
         position: fixed;

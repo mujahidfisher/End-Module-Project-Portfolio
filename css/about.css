@@ -1,8 +1,10 @@
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 div {
   font-family: 'Roboto Mono', monospace;
 }
+/* constant parts of website */
 .navbar {
     text-align: center !important;
     border: black solid 5px;
@@ -24,7 +26,7 @@ body {
     height: 60px;
     width: 60px;
 }
- 
+ /* about me section */
 .about-section {
     padding: 50px;
     text-align: center;
@@ -57,6 +59,7 @@ h2 {
 .card {
     margin: 20px !important
 }
+/* screan size fix */
 @media screen and (max-width: 820px){
     .card-deck {
         display: grid !important;
@@ -77,7 +80,7 @@ h2 {
   color: rgb(0, 0, 0);
  
 }
-
+/* animations */
 .orange {
     animation: pulse-orange 2s infinite;
 }
@@ -137,7 +140,7 @@ h2 {
       box-shadow: 0 0 0 0 rgba(255, 177, 66, 0);
     }
   }
-
+/* progress bar */
 .html {width: 80%; background-color: #f65104;}
 .css {width: 70%; background-color: #005eff;} 
 .js {width: 40%; background-color: #eaff01;} 
