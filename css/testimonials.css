@@ -28,8 +28,14 @@ body {
 .cards {
     padding: 1rem;
     width: 100%;
-
+    
 }
 .card-img-top {
+    max-width: 400px;
     height: 30vh;
+}
+@media screen and (max-width:700px){
+    .cards .card-deck{
+        flex-direction: column;
+    }
 }
